@@ -345,3 +345,59 @@ last_item = my_list[-1]
 ```
 
 What is the index that gives the last element of a list?
+
+---
+## 2026-11-11 10:46, in .
+
+**Me:** how to reverse a list?
+
+**Tutor:**
+
+Reversing a list is done with the built-in function `reverse()` or slicing `[::-1]`.
+
+```python
+my_list = [10, 20, 30, 40]
+
+# Option 1: in-place reversal
+my_list.reverse()  # TODO: call the correct method here
+
+# Option 2: create a new reversed list
+reversed_list = my_list[::-1]  # TODO: write the slice that reverses
+```
+
+Which argument does the slice `[::-1]` take to reverse the list?
+
+---
+## 2026-11-11 10:47, in .
+
+**Me:** how to make a copy of a list
+
+**Tutor:**
+
+Copying a list in Python
+
+Use slicing to create a shallow copy of a list.
+
+```python
+original = [10, 20, 30]
+# TODO create a copy called 'copied' here
+```
+
+What is the slicing syntax that copies the whole list?
+
+---
+## 2026-11-11 10:47, in .
+
+**Me:** whats a slicing syntax?
+
+**Tutor:**
+
+Slicing is taking a contiguous subsequence from a sequence (string, list, tuple) using [start:stop:step].
+
+```python
+text = "alpha beta gamma"
+# TODO: slice the first 5 characters
+part = text[ ... ]
+```
+
+What is the step argument if you want every second character?
