@@ -24,10 +24,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What happens when the second number is zero, and why:
+# 1. In: Two whole numbers typed by the user.
+# 2. Process: The inputs are changed from text to numbers with int(), then I add, subtract, multiply and divide them.
+# 3. Out: The two numbers, then the sum, difference, product and quotient.
+# 4. What happens when the second number is zero, and why: If the second number is zero: The program shows a message instead of dividing, because dividing by zero crashes Python.
 
 
 # Your code below
@@ -41,7 +41,27 @@ print(" The second number is : ", number_2)
 sum = number_1 + number_2
 print("The sum of two numbers is ",sum)
 
-# differene of two numbers
-diff = number_1 - number-2
+#difference of two numbers
+diff = number_1 - number_2
 print("the diff of two numbers is: ",diff)
 
+#product of two numbers
+product = number_1 * number_2
+print("The product is:", product)
+
+print("The product is:", product)
+if number_2 == 0:
+    print("The quotient cannot be calculated: division by zero is impossible.")
+else:
+    quotient = number_1 / number_2
+    print("The quotient is:", quotient)
+
+# My Comments
+# CHECK 1: I ran it with 7 and 2.
+# In my head, 7 / 2 = 3.5.
+# My program shows 3.5, because "/" gives a decimal number.
+# If it showed 3, it would mean I used "//", which cuts off the decimal part.
+
+# CHECK 2: I ran it with 7 and 0.
+# The sum, difference and product work normally.
+# For the division, my program shows a message instead of crashing.

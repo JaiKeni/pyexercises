@@ -171,3 +171,79 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-11 10:17, in .
+
+**Me:** how to do division in python?
+
+**Tutor:**
+
+Division in Python is done with the `/` operator.
+
+```python
+# TODO: compute the division of two numbers
+result = 10 / 2
+```
+
+What is the operator used for division in Python?
+
+---
+## 2026-11-11 10:25, in .
+
+**Me:** what are operators?
+
+**Tutor:**
+
+Operators are symbols that perform operations on variables and values.
+
+For example, arithmetic operators like `+` (add), `-` (subtract), `*` (multiply), and `/` (divide) work like this:
+
+```python
+# TODO: replace alpha and beta with your numbers
+a = 5
+b = 3
+sum_result = a + b
+diff_result = a - b
+prod_result = a * b
+quot_result = a / b
+```
+
+What operator would you use to raise `a` to the power of `b`?
+
+---
+## 2026-11-11 10:25, in .
+
+**Me:** how to divide numbers in python?
+
+**Tutor:**
+
+Division in Python is done with the `/` operator.
+
+```python
+# TODO: divide 10 by 2 and print the result
+result = 10 / 2
+print(result)
+```
+
+What is the operator that performs division in Python?
+
+---
+## 2026-11-11 10:26, in .
+
+**Me:** how to use the if else statement?
+
+**Tutor:**
+
+Conditional execution with if-else.
+
+```python
+# TODO: decide if the customer is premium
+spend = 120          # TODO: replace with actual spend column
+if spend > 100:
+    tier = "premium"
+else:
+    tier = "standard"
+```
+
+What function or operator compares spend to 100?
