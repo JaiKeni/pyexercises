@@ -294,3 +294,54 @@ print(a == b)  # True
 ```
 
 What function returns True when two values are equal?
+
+---
+## 2026-11-11 10:41, in .
+
+**Me:** how to sort lists?
+
+**Tutor:**
+
+Sorting a list.
+
+```python
+# TODO: complete this function
+def sort_list(numbers):
+    """Return a new list with the same items sorted in ascending order."""
+    # TODO: call the right function here
+    return sorted()
+```
+
+What argument does `sorted` take?
+
+---
+## 2026-11-11 10:42, in .
+
+**Me:** how to access first item in list?
+
+**Tutor:**
+
+Accessing the first item in a list.
+
+```python
+my_list = ["apple", "banana", "cherry"]
+first_item = my_list[0]  # TODO: replace 0 with the correct index
+```
+
+What is the index of the first element in a Python list?
+
+---
+## 2026-11-11 10:42, in .
+
+**Me:** how to access last item in list?
+
+**Tutor:**
+
+Accessing the last item in a list.
+
+```python
+# TODO: replace 'my_list' with your list variable
+last_item = my_list[-1]
+```
+
+What is the index that gives the last element of a list?
