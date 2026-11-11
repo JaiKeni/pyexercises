@@ -22,10 +22,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In: a string containing my name and a number five times
+# 2. Process: using the print fuction to print my name in the ternimal
+# 3. Out: printed my name five times with numbers
+# 4. My message, and why: my name printed 5 times with numbers
 
 
 # Your code below
