@@ -428,3 +428,65 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-11 10:57, in .
+
+**Me:** what is enumerate?
+
+**Tutor:**
+
+Enumerate is a built-in function that adds a counter to an iterable and returns an enumerate object (an iterator).
+
+```python
+# Example: adding an index to a list of colours
+colours = ['red', 'green', 'blue']
+
+# TODO: use enumerate to get both index and colour
+for ??? in ???(???):
+    print(index, colour)
+```
+
+Question: Which two arguments does enumerate take, and what does the first one represent?
+
+---
+## 2026-11-11 10:58, in .
+
+**Me:** how to calculate the share in this exercise?
+
+**Tutor:**
+
+Calculating the share means dividing one value by the total and multiplying by 100 to get a percentage.
+
+```python
+def calculate_share(value: float, total: float) -> float:
+    # TODO: return the share of `value` relative to `total` as a percentage
+    pass
+
+# Example usage (not part of your code)
+example_value = 15.0
+example_total = 100.0
+print(calculate_share(example_value, example_total))  # Should print 15.0
+```
+
+What is the correct order of operations to compute the share?
+
+---
+## 2026-11-11 10:59, in .
+
+**Me:** how to use the for loop?
+
+**Tutor:**
+
+A for loop lets you repeat a block of code for each item in a sequence.
+
+```python
+# Loop over a list of toy products
+products = ["alpha", "beta", "gamma"]
+
+for product in products:
+    # TODO: print the current product name
+    print(product)
+```
+
+What is the name of the variable that holds the single item during each loop iteration?

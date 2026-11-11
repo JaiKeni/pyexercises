@@ -24,10 +24,23 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
+# 1. In: Nothing typed by the user. The list is the monthly sales list copied from exercise 4.0.
+# 2. Process: I add up the total with sum(). Then I go through the list with a for loop and enumerate(), and for each item I calculate its share of the total.
+# 3. Out: One line for each month with its position, its sales and its share of the total sales in percent.
 # 4. What I compute for each item, and why it is worth showing:
+#    I compute the share of the total (sales / total * 100).
+#    The reader sees which months bring the most money, so it is easier to compare them than with the raw numbers.
 
 
 # Your code below
+monthly_sales = [4200, 3800, 5100, 4700, 6000, 5500, 3900, 4400]
+
+total = sum(monthly_sales)
+
+for position, sales in enumerate(monthly_sales, start=1):
+    share = sales / total * 100
+    print("Month", position, ": sales", sales, "euros, that is", round(share, 1), "% of the total")
+
+
+# CHECK: My list has 8 items and my program printed 8 lines, so there is no off-by-one.
+# I used enumerate(..., start=1) so the positions go from 1 to 8 and not from 0 to 7.
