@@ -490,3 +490,75 @@ for product in products:
 ```
 
 What is the name of the variable that holds the single item during each loop iteration?
+
+---
+## 2026-11-16 15:24, in .
+
+**Me:** how to add new scenarios?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-16 15:25, in .
+
+**Me:** how to create if else statement?
+
+**Tutor:**
+
+Conditional branching with if-else.
+
+```python
+# TODO: decide what to print based on a condition
+value = 3
+
+if value > 5:
+    print("Large")
+else:
+    print("Small")
+```
+
+What keyword comes right after the condition in an else branch?
+
+---
+## 2026-11-16 15:26, in .
+
+**Me:** What is the purpose of the import csv statement in my code?
+
+**Tutor:**
+
+The `import csv` statement loads Python’s built-in csv module so you can read and write comma-separated value files without writing the parsing logic yourself.
+
+```python
+import csv
+
+# TODO: open the file and read its rows
+with open('toy_data.csv', newline='') as f:
+    reader = csv.reader(f)          # TODO: what argument does csv.reader need?
+    for row in reader:
+        print(row)
+```
+
+Which function inside the csv module expects the file object as its argument?
+
+---
+## 2026-11-16 15:27, in .
+
+**Me:** What is the purpose of the random.shuffle() function?
+
+**Tutor:**
+
+The purpose of `random.shuffle()` is to reorder the items in a list in a random order.
+
+```python
+import random
+
+# TODO: import the module first
+
+toy_list = [10, 20, 30]
+random.shuffle(toy_list)
+print(toy_list)  # What order will this print?
+```
+
+Which argument does `random.shuffle()` take?
