@@ -127,7 +127,7 @@ else:
         
 
 
-#check
+#checked all this 
 # Campaign name:
 # PASS: Flow Activewear
 # FAIL: AB
